@@ -1,0 +1,13 @@
+db.estudiante.insertOne(
+    {
+        nombre:"Pepe",
+        edad:23,
+        boleta: 123456789
+    }
+)
+
+db.estudiante.insertMany([
+    {nombre:"Daniel",edad:24,boleta:123456},
+    {nombre:"Pepe",edad:25,boleta:999999},
+    {nombre:"Juan",edad:"36",boleta:888888}
+])
